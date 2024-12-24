@@ -1,0 +1,57 @@
+body {
+    overflow: hidden;
+}
+
+:root {
+    --bar-color: #0052af;
+    --bar-background-color: #002b5c;
+}
+
+.container {
+    position: absolute;
+    bottom: 1%;
+    left: 0%;
+    display: grid;
+    overflow: visible;
+}
+
+.bosse {
+    position: relative;
+    display: inline-block;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    font-weight: bold;
+}
+
+.bosse2 {
+    width: 2vw;
+    height: 2vw;
+    margin-top: 0.2vw;
+    position: relative;
+    top: -0.2vw;
+    margin-left: 0.10vw;
+    border-radius: 12%;
+    background-color: var(--bar-background-color);
+    overflow: hidden;
+}
+
+.bosse3 {
+    width: 100%;
+    height: 100%;
+    transition: width 0.5s, background-color 0.5s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--bar-color);
+    border-radius: 12%;
+}
+
+.ikon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1vw;
+    transform: translate(-50%, -50%);
+    text-shadow: 0.1vw 0.1vw 0.3vw rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+}
